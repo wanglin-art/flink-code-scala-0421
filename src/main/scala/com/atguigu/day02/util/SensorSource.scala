@@ -28,7 +28,7 @@ class SensorSource extends RichParallelSourceFunction[SensorReading]{
       )
       val curTime = Calendar.getInstance.getTimeInMillis
       curFTemp.foreach(t=>sourceContext.collect(SensorReading(t._1,curTime,t._2)))
-      Thread.sleep(1000)
+      Thread.sleep(100)
     }
   }
 
