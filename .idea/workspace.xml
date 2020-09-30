@@ -20,16 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66665390-3a48-451a-b622-6e37e049fa15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day03/AvgTempPerWindow.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day03/AvgTempWithWindow.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day03/HighLowPerWindow.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day03/ProFuncWindowTimer.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day03/TempIncreaseAlert.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day03/util/HighLowTemp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/atguigu/BatchJob.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/atguigu/StreamingJob.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/atguigu/day02/util/SensorSource.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day02/util/SensorSource.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/atguigu/day03/AggregateFunctionExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day03/AggregateFunctionExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day04/AscendingTs.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day04/EventTimeTimer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day04/PeriodicWatermarkGenerator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day04/RedirectLateEventToSideOutputExample1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day04/RedirectLateEventToSideOutputExample2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day04/SideOutputExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day04/SwitchSensorStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day04/WatermarkBroadcast.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day04/WatermarkTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day04/WindowWatermark.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/atguigu/day03/TempIncreaseAlert.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/day03/TempIncreaseAlert.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +46,8 @@
       <list>
         <option value="Scala Object" />
         <option value="Scala Class" />
-        <option value="Class" />
         <option value="Package Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,13 +76,13 @@
     <property name="project.structure.side.proportion" value="0.50574714" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Application.TempIncreaseAlert">
-    <configuration name="AvgTempPerWindow" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.day03.AvgTempPerWindow" />
+  <component name="RunManager" selected="Application.RedirectLateEventToSideOutputExample2">
+    <configuration name="AscendingTs" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.day04.AscendingTs" />
       <module name="flink-code-scala-0421" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.day03.*" />
+          <option name="PATTERN" value="com.atguigu.day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AvgTempWithWindow" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.day03.AvgTempWithWindow" />
+    <configuration name="RedirectLateEventToSideOutputExample1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.day04.RedirectLateEventToSideOutputExample1" />
       <module name="flink-code-scala-0421" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.day03.*" />
+          <option name="PATTERN" value="com.atguigu.day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighLowPerWindow" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.day03.HighLowPerWindow" />
+    <configuration name="RedirectLateEventToSideOutputExample2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.day04.RedirectLateEventToSideOutputExample2" />
       <module name="flink-code-scala-0421" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.day03.*" />
+          <option name="PATTERN" value="com.atguigu.day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProFuncWindowTimer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.day03.ProFuncWindowTimer" />
+    <configuration name="SideOutputExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.day04.SideOutputExample" />
       <module name="flink-code-scala-0421" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.day03.*" />
+          <option name="PATTERN" value="com.atguigu.day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TempIncreaseAlert" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.day03.TempIncreaseAlert" />
+    <configuration name="WatermarkBroadcast" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.day04.WatermarkBroadcast" />
       <module name="flink-code-scala-0421" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.day03.*" />
+          <option name="PATTERN" value="com.atguigu.day04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TempIncreaseAlert" />
-        <item itemvalue="Application.ProFuncWindowTimer" />
-        <item itemvalue="Application.HighLowPerWindow" />
-        <item itemvalue="Application.AvgTempWithWindow" />
-        <item itemvalue="Application.AvgTempPerWindow" />
+        <item itemvalue="Application.RedirectLateEventToSideOutputExample2" />
+        <item itemvalue="Application.RedirectLateEventToSideOutputExample1" />
+        <item itemvalue="Application.SideOutputExample" />
+        <item itemvalue="Application.WatermarkBroadcast" />
+        <item itemvalue="Application.AscendingTs" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +170,8 @@
       <workItem from="1601200505331" duration="5390000" />
       <workItem from="1601253243882" duration="948000" />
       <workItem from="1601291847117" duration="8046000" />
-      <workItem from="1601302578717" duration="4824000" />
+      <workItem from="1601302578717" duration="5933000" />
+      <workItem from="1601340080801" duration="17148000" />
     </task>
     <servers />
   </component>
@@ -185,18 +188,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="719" y="0" key="#Auto_Import" timestamp="1601297096292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="0" key="#Auto_Import/-1366.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601297096292" />
-    <state x="488" y="52" key="#com.intellij.ide.util.MemberChooser" timestamp="1601303515785">
+    <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601395655959">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601395655959" />
+    <state x="488" y="52" key="#com.intellij.ide.util.MemberChooser" timestamp="1601396244324">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-878" y="364" key="#com.intellij.ide.util.MemberChooser/-1366.312.1366.728/0.0.1920.1040@-1366.312.1366.728" timestamp="1601173671884" />
-    <state x="686" y="74" key="#com.intellij.ide.util.MemberChooser/-1366.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601299629199" />
-    <state x="488" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601303515785" />
+    <state x="686" y="74" key="#com.intellij.ide.util.MemberChooser/-1366.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601385091204" />
+    <state x="488" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601396244324" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1601260223093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -209,35 +217,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="704" y="137" key="Github.UntrackedFilesDialog/-1366.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601293885053" />
-    <state width="1323" height="460" key="GridCell.Tab.0.bottom" timestamp="1601307276585">
+    <state width="1323" height="329" key="GridCell.Tab.0.bottom" timestamp="1601396685849">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="66" key="GridCell.Tab.0.bottom/-1366.312.1366.728/0.0.1920.1040@-1366.312.1366.728" timestamp="1601024925932" />
-    <state width="1877" height="92" key="GridCell.Tab.0.bottom/-1366.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601299901050" />
-    <state width="1323" height="460" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601307276585" />
-    <state width="1323" height="460" key="GridCell.Tab.0.center" timestamp="1601307276585">
+    <state width="1877" height="2" key="GridCell.Tab.0.bottom/-1366.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601385309312" />
+    <state width="1323" height="329" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601396685849" />
+    <state width="1323" height="329" key="GridCell.Tab.0.center" timestamp="1601396685849">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="66" key="GridCell.Tab.0.center/-1366.312.1366.728/0.0.1920.1040@-1366.312.1366.728" timestamp="1601024925931" />
-    <state width="1877" height="92" key="GridCell.Tab.0.center/-1366.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601299901049" />
-    <state width="1323" height="460" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601307276585" />
-    <state width="1323" height="460" key="GridCell.Tab.0.left" timestamp="1601307276584">
+    <state width="1877" height="2" key="GridCell.Tab.0.center/-1366.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601385309312" />
+    <state width="1323" height="329" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601396685849" />
+    <state width="1323" height="329" key="GridCell.Tab.0.left" timestamp="1601396685848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="66" key="GridCell.Tab.0.left/-1366.312.1366.728/0.0.1920.1040@-1366.312.1366.728" timestamp="1601024925931" />
-    <state width="1877" height="92" key="GridCell.Tab.0.left/-1366.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601299901048" />
-    <state width="1323" height="460" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601307276584" />
-    <state width="1323" height="460" key="GridCell.Tab.0.right" timestamp="1601307276585">
+    <state width="1877" height="2" key="GridCell.Tab.0.left/-1366.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601385309312" />
+    <state width="1323" height="329" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601396685848" />
+    <state width="1323" height="329" key="GridCell.Tab.0.right" timestamp="1601396685849">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="66" key="GridCell.Tab.0.right/-1366.312.1366.728/0.0.1920.1040@-1366.312.1366.728" timestamp="1601024925931" />
-    <state width="1877" height="92" key="GridCell.Tab.0.right/-1366.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601299901049" />
-    <state width="1323" height="460" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601307276585" />
-    <state x="161" y="16" key="SettingsEditor" timestamp="1601302792832">
+    <state width="1877" height="2" key="GridCell.Tab.0.right/-1366.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601385309312" />
+    <state width="1323" height="329" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601396685849" />
+    <state x="161" y="16" key="SettingsEditor" timestamp="1601388831169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1101" y="312" key="SettingsEditor/-1366.312.1366.728/0.0.1920.1040@-1366.312.1366.728" timestamp="1601019094923" />
-    <state x="226" y="241" key="SettingsEditor/-1366.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601294396281" />
-    <state x="161" y="16" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601302792832" />
+    <state x="226" y="241" key="SettingsEditor/-1366.312.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1601383293192" />
+    <state x="161" y="16" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601388831169" />
   </component>
 </project>

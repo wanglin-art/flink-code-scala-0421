@@ -31,7 +31,7 @@ object TempIncreaseAlert {
     )
 
     // 默认值是0L
-    lazy val timer: ValueState[Long] = getRuntimeContext.getState(
+   lazy  val timer: ValueState[Long] = getRuntimeContext.getState(
       new ValueStateDescriptor[Long]("timer", Types.of[Long])
     )
 
